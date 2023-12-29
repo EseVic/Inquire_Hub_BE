@@ -1,12 +1,12 @@
 /**
  * controllers - article controller
  *
- * Creates a new conversation from the body request recieved
+ * Creates a new article from the body request recieved
  * and connects with a authenticated user
  * adds the created message to the database
  *
  * An express router (articleRouter) that routes to a /article endpoints
- * uses bcryptjs for auhtnetication
+ * uses bcryptjs for authentication
  */
 
 const articleRouter = require('express').Router();

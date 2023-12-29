@@ -6,7 +6,7 @@
  * adds the created message to the database
  *
  * An express router (converationRouter) that routes to a /conversation endpoints
- * uses bcryptjs for auhtnetication
+ * uses bcryptjs for authentication
  */
 
 const converationRouter = require('express').Router();

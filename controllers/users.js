@@ -5,7 +5,7 @@
  * adds the created user to the database
  *
  * An express router (userRouter) that routes to a /user endpoints
- * uses bcryptjs for auhtnetication
+ * uses bcryptjs for authentication
  */
 
 const userRouter = require('express').Router();

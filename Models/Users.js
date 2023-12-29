@@ -10,7 +10,7 @@ const url = config.MONGODB_URI;
 
 logger.info('connecting to ..... MONGODB');
 
-//connecting to the DB...
+//connecting to the DB
 mongoose
   .connect(url)
   .then(() => logger.info('Connected to MONGODB'))
@@ -34,7 +34,9 @@ const userSchema = Schema(
     articles: [{ type: Schema.Types.ObjectId, ref: 'Article' }],
     code: [{ type: Schema.Types.ObjectId, ref: 'Code' }],
     rateLimit: { type: Number, default: 0 },
-    maxRateLimit: { type: Number, default: 5 },
+    maxRateLimit: { type: Number, default: 10 },
+    isPro: { type: Boolean, default: false },
+    payStackRef: String,
   },
   { timestamps: true }
 );

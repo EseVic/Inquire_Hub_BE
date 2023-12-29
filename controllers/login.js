@@ -2,7 +2,7 @@
  * controllers - login controller
  *
  * An express router (loginRouter) that routes to a /login page
- * uses json_web_tokens and bcryptjs for auhtnetication
+ * uses json_web_tokens and bcryptjs for authentication
  */
 
 const loginRouter = require('express').Router();

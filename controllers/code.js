@@ -6,7 +6,7 @@
  * adds the created message to the database
  *
  * An express router (codeRouter) that routes to a /code endpoints
- * uses bcryptjs for auhtnetication
+ * uses bcryptjs for authentication
  */
 
 const codeRouter = require('express').Router();
