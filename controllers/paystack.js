@@ -36,7 +36,7 @@ paystackRouter.post('/', userExtractor, async (req, res) => {
     const formData = JSON.stringify({
       email: user.email,
       fullname: user.fullname,
-      amount: plan,
+      amount: plan * 100,
     });
 
     // options
