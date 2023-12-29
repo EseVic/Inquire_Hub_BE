@@ -10,7 +10,7 @@ const url = config.MONGODB_URI;
 
 logger.info('connecting to ..... MONGODB');
 
-//connecting to the DB
+//connecting to the DB...
 mongoose
   .connect(url)
   .then(() => logger.info('Connected to MONGODB'))
