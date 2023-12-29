@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.728aa859.css",
+    "main.js": "/static/js/main.80021a00.js",
+    "static/media/sign-in.png": "/static/media/sign-in.9c62581a9ddd14941222.png",
+    "static/media/chatbot.png": "/static/media/chatbot.b4dd5db87ca1cb85860e.png",
+    "static/media/services.png": "/static/media/services.b40825190ca87202ffeb.png",
+    "static/media/sign-up.png": "/static/media/sign-up.6798c2faa65ef88e30af.png",
+    "static/media/chatbot2.png": "/static/media/chatbot2.1bd4efb8468938531bf7.png",
+    "static/media/chatbot3.png": "/static/media/chatbot3.fb5191a663001b9150a9.png",
+    "static/media/logo.png": "/static/media/logo.b4f68080ca1929f8e145.png",
+    "static/media/polygon.svg": "/static/media/polygon.3e6205e3ccd05adb7166.svg",
+    "static/media/bot.png": "/static/media/bot.c8d16102dce494a78e31.png",
+    "static/media/hacker.png": "/static/media/hacker.8722ca4b7ed9fbc19cc8.png",
+    "static/media/contour.svg": "/static/media/contour.c39f37cd30417aca166c.svg",
+    "index.html": "/index.html",
+    "main.728aa859.css.map": "/static/css/main.728aa859.css.map",
+    "main.80021a00.js.map": "/static/js/main.80021a00.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.728aa859.css",
+    "static/js/main.80021a00.js"
+  ]
+}
